@@ -11,6 +11,7 @@ def main(num1, num2):
     """
     num1=int(num1)
     num2=int(num2)
-    answer=int(num1)+int(num2)
-    return  answer
+    answer=num1+num2
+    int(answer)==answer
+    return  str(answer)
 print(main('12','5'))    
