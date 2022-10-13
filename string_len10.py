@@ -8,4 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    a=s
+    if s==a :
+        return True
+    else :
+        return False        
+print(main('dcd'))
