@@ -8,4 +8,23 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    a=len(s1)
+    b=len(s2)
+    c=len(s3)
+    ans=[]  
+    if a%2==1:
+        asnwer=[s1]
+    if a%2==0:
+        answer=[]
+    if b%2==1:
+        answer=[s1,s2]
+    if b%2==0:
+        answer=[s1]
+    if c%2==1:
+        answer=[s1,s2,s3]
+    if c%2==0:
+        answer=[s1,s2]
+    if b%2==0:
+        answer=[s1,s3]
+    return answer                                                                        
+print(main('example','python ','coder'))        
