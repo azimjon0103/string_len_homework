@@ -9,5 +9,8 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return  f'{num1}+{num2}={num1+num2}'
-print(main(12,5))    
+    num1=int(num1)
+    num2=int(num2)
+    answer=int(num1)+int(num2)
+    return  answer
+print(main('12','5'))    
