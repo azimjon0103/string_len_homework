@@ -8,9 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    a=s
-    if s==a :
+    revstr=(s[::-1])
+    if  revstr==s:
         return True
     else :
-        return False        
-print(main('dcd'))
+        return False       
+print(main('madam'))
