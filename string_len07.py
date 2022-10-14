@@ -17,6 +17,6 @@ def main(s1,s2,s3):
     if b%2==1:
         ans+=s2+","
     if c%2==1:
-        ans+=s3+","        
+        ans+=s3       
     return '['+ans+']'                                                                 
 print(main('example ','pytho n','cod er'))        
