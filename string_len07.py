@@ -11,12 +11,12 @@ def main(s1,s2,s3):
     a=len(s1)
     b=len(s2)
     c=len(s3)
-    ans='' 
+    answer = ''
     if a%2==1:
-        ans+=s1+","
+        answer += s1+", "
     if b%2==1:
-        ans+=s2+","
+        answer += s2+", "
     if c%2==1:
-        ans+=s3       
-    return '['+ans+']'                                                                 
+        answer += s3
+    return  '['+answer+']'                                                               
 print(main('example ','pytho n','cod er'))        
