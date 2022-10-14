@@ -47,5 +47,5 @@ def main(s1,s2,s3):
         if b%2==0:
             if c%2==0:
                 answer=[]                                           
-    return answer                                                                        
+    return str(answer)                                                                        
 print(main('example','python','coder'))        
