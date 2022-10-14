@@ -8,9 +8,9 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    a=int(len(s1))
-    b=int(len(s2))
-    c=int(len(s3))
+    a=len(s1)
+    b=len(s2)
+    c=len(s3)
     ans=[]  
     if a%2==1:
         if b%2==1:
@@ -45,4 +45,4 @@ def main(s1,s2,s3):
             if c%2==0:
                 answer=[]                                           
     return str(answer)                                                                        
-print(main('example','python','coder'))        
+print(main('example ','python','coder '))        
