@@ -13,18 +13,36 @@ def main(s1,s2,s3):
     c=len(s3)
     ans=[]  
     if a%2==1:
-        asnwer=[s1]
-    if b%2==1:
-        answer=[s1,s2]
-    elif c%2==1:
-        answer=[s1,s2,s3]
-    elif a%2==0:
-        answer=[s2,s3]
-    if b%2==0:
-        answer=[s1,s3]
-    if a% 2==0 and c%2==0:
-        answer=[s2]   
-    if a%2==0 and b%2==0:
-        answer=[s3]    
+        if b%2==1:
+            if c%2==1:
+                answer=[s1,s2,s3]
+    if a%2==1:
+        if b%2==1:
+            if c%2==0:
+                answer=[s1,s2]
+    if a%2==1:
+        if b%2==0:
+            if c%2==1:
+                answer=[s1,s3]
+    if a%2==0:
+        if b%2==1:
+            if c%2==1:
+                answer=[s2,s3]
+    if a%2==1:
+        if b%2==0:
+            if c%2==0:
+                answer=[s1]   
+    if a%2==0:
+        if b%2==1:
+            if c%2==0:
+                answer=[s2]
+    if a%2==0:
+        if b%2==0:
+            if c%2==1:
+                answer=[s3] 
+    if a%2==0:
+        if b%2==0:
+            if c%2==0:
+                answer=[]                                           
     return answer                                                                        
-print(main('example ','python ','coder '))        
+print(main('example ','python','coder'))        
