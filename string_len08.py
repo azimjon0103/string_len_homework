@@ -8,4 +8,9 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=len(s)//2
+    if len(s)%2==0:
+        return s[a-1]+s[a]
+    elif len(s)%2==1:
+        return  s[a]  
+print(main('cobnol'))        
